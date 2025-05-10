@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        background-color: darkgray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main{
+        margin:auto;
+        max-width: 1000px;
+        border-radius: 10px 0px 10px 0px;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+    nav{
+        padding: 5px;
+        box-shadow: 1px 1px 1px black;
+    }
+    nav > a{
+        color:aliceblue;
+        text-decoration: none;
+        font-weight:bold ;
+        padding: 5px;
+        padding-top: 10px;
+    }
+
+    header{
+        background-color: red;
+        padding: 10px; 
+    }
+    main{
+        background-color: beige;
+        margin-top: 15px;
+    }
+    article > h2{
+        text-align: center;
+        padding: 3px;
+    }
+
+    article > h3{
+        padding: 2px;
+        margin-top: 10px;
+    }
+    
+    aside{
+        font-style: italic;
+    }
+
+    footer{
+        background-color: red;
+        text-align: center;
+        font-size: 0.8em;
+        padding: 6px;
+        color: white;
+       
+    }
+    div#bola{
+        background-color: blue;
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>CinemaTV</h1>
+        <nav>
+            <a href="#">Comédia</a>
+            <a href="#">Ação</a>
+            <a href="#">Drama</a>
+            <a href="#">Romance</a>
+            <a href="#">Terror</a>
+        </nav>
+    </header>
+    <main>
+        <article id="Noticias">
+            <h2>Noticias da Semana</h2>
+            <h3>fulado ganhou o oscar</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum amet a aut commodi. Voluptate, ab quod! Nostrum, rerum. Nesciunt cum ab ex, ullam similique rerum? Voluptatem amet quis quo?</p>
+            <aside> Escrito por Thiago Silva</aside>
+            <h3>Filme azul vai mal nas bilheterias</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quis expedita nesciunt sequi corporis quasi sed rem dolorum aspernatur, totam aut optio incidunt autem quam dicta! Ex impedit esse iure.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus pariatur molestiae architecto, amet doloribus nisi voluptate nobis expedita placeat iure? Repellendus, dolor recusandae. Facere ut, placeat ea quasi nihil quos.</p>
+            <aside>
+                Escrito por Iago Matos
+            </aside>
+        </article>
+
+    </main>
+    <footer>
+<p>Desenvolvido por Guilherme Silva</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
