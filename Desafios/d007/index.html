@@ -6,8 +6,10 @@
     <title>Desafio 7</title>
 </head>
 <body>
-    <img src="paisagem-g.png" alt="Paisagem" max-with="50px">
-    <img src="paisagem-m.png" alt="Paisagem" max-with="20">
-    <img src="paisagem-p.png" alt="Paisagem" max width="">
+    <picture>
+        <source media="(max-width: 200px )" srcset="paisagem-m.png">
+        <source media="(max-width: 800px)" srcset="paisagem-m.png">
+        <img src="paisagem-g.png" alt="paisagem-g">
+    </picture>
 </body>
 </html>
